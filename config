@@ -35,7 +35,7 @@ exec "setxkbmap -option 'grp:alt_shift_toggle' -layout us,ir"
 exec xinput set-prop "DELL081B:00 044E:120A Touchpad" "libinput Tapping Enabled" 1
 
 # Copyq clipboard manager
-bindsym $mod+Shift+f exec --no-startup-id copyq show
+bindsym Ctrl+Mod1+h exec --no-startup-id copyq show
 
 for_window [instance="copyq"] floating enable
 for_window [instance="copyq"] resize set 1000 600
