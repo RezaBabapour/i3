@@ -24,3 +24,4 @@ Packages need to be installed:
 | network-manager | |
 | qalc | cli calculator |
 | evince | pdf reader |
+| librsvg2-common | renderer for SVG |
